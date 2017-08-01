@@ -17,4 +17,11 @@ public @interface Dispatcher {
      * @return
      */
     String value() default "";
+
+    /**
+     * effective or not when project compile
+     *
+     * @return
+     */
+    boolean live() default false;
 }
