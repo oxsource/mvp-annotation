@@ -23,5 +23,5 @@ public @interface Dispatcher {
      *
      * @return
      */
-    boolean live() default false;
+    boolean live() default true;
 }
